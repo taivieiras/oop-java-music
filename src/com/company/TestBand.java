@@ -43,11 +43,11 @@ public class TestBand {
         Bass b1 = new Bass();
 
         Viola vi1 = new  Viola();
-        vi1.Move(4,"Viola"); // Can I change to `Play`?//
+        vi1.Move(4,"Viola"); 
 
         Harp h1 = new Harp();
 
-        h1.Move(47, "Harp"); // Change the sentence here//
+        h1.Move(47, "Harp");
 
 
     }
