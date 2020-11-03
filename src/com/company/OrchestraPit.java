@@ -19,7 +19,7 @@ public class OrchestraPit {
         Double totalRevenue = 0.0;
 
         for (Orchestra currentCar : instrumentalsList) {
-            Message.DebugMessage(String.format("Calculating for %s : %s", Violin.getBrand(), Violin.getType()));
+            Message.DebugMessage(String.format("Calculating for %s : %s", Violin.brand(), Violin.getType()));
             totalRevenue += chargeEntrance;
 
         }

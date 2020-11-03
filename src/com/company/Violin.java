@@ -11,18 +11,18 @@ public class Violin extends Orchestra {
 
     }
 
-    public Violin(String setbrand, String settype) {
+    public Violin(String brand, String type) {
 
         Message.DebugMessage("Creating a Violin with brand and type");
 
-        setBrand(setbrand);
-        setType(settype);
+        setBrand(brand);
+        setType(type);
     }
 
     @Override
     public String toString() {
 
-        return String.format("ToString() => V2 setbrand: %s, settype: %s", getBrand(), getType());
+        return String.format("ToString() => V2 setbrand: %s, settype: %s", brand(), getType());
     }
 
 

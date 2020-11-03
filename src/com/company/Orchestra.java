@@ -6,8 +6,8 @@ public abstract class Orchestra {
     private String setType;
 
 
-    public static String getBrand() {
-        return getBrand();
+    public String getbrand() {
+        return brand;
     }
 
     public void setBrand(String getBrand) {
@@ -15,8 +15,8 @@ public abstract class Orchestra {
     }
 
 
-    public static String getType() {
-        return getType();
+    public String getType() {
+        return getType;
     }
 
     public void setType(String type) {
